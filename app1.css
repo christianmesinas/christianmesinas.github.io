@@ -4,18 +4,21 @@
 .row{
   margin-right: 0px;
 }
+.header{
+  font-family: "Roboto Condensed", sans-serif;
+}
 
 body{
-  background: #4287f5;
+  background: white;
   font-family: "Nunito", sans-serif;
 }
 .blurb h2{
-  color: #ea1c2c;
+  color: black;
   font-weight: 100;
   font-size: 2.5rem;
 }
 .blurb p{
-  color: #f498b8;
+  color: black;
   font-weight: 100;
   font-size: 1.125rem;
   line-height: 2;
@@ -30,6 +33,16 @@ body{
 #headingGroup h1{
   font-weight: 100;
   font-size: 3rem;
+  font-family: "Nunito", sans-serif;
+
+}
+#headingGroup h3{
+  position: fixed;
+  font-weight: 50;
+  height: 0px;
+  font-family: "Nunito", sans-serif;
+  width: 0px;
+ right: 0px;
 }
 
 .col-lg-6{
@@ -50,16 +63,16 @@ body{
   color: white;
 }
 #mainNavbar .nav-link:hover {
-  color: #0045E4;
+  color: black;
 }
 #mainNavbar .navbar-brand{
   color: white;
 }
 #mainNavbar .navbar-brand:hover{
-  color: #0045E4;
+  color: black;
 }
 #headingGroup span{
-  color: #0045E4;
+  color: black;
 }
 #headingGroup h1{
   font-weight: 100;
@@ -74,7 +87,7 @@ width:55px;
   border-radius: 0px;
 }
 .navbar.scrolled{
-  background: #015D92;
+  background: #0f1011;
   transition: background 1s;
 }
 /*navLinks padding  */
@@ -97,8 +110,18 @@ padding-top: 2px;
 @media (min-width: 1000px){
 
   #headingGroup h1{
-    font-weight: 100;
-    font-size: 3rem;
+    font-weight: 400;
+    font-size: 5;
+    font-family: "Nunito", sans-serif;
+
+  }
+  #headingGroup h3{
+    position: relative;
+    right: 50px;
+    height: 400px;
+    width: 1000px;
+    font-weight: 300;
+    font-family: "Nunito", sans-serif;
   }
 #contact-info{
   padding-bottom: 50px;
