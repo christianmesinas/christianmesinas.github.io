@@ -9,16 +9,16 @@
 }
 
 body{
-  background: white;
+  background: black;
   font-family: "Nunito", sans-serif;
 }
 .blurb h2{
-  color: black;
+  color:  #fbd201;
   font-weight: 100;
   font-size: 2.5rem;
 }
 .blurb p{
-  color: black;
+  color:  #fbd201;
   font-weight: 100;
   font-size: 1.125rem;
   line-height: 2;
@@ -37,6 +37,7 @@ body{
 
 }
 #headingGroup h3{
+  color:  #fbd201;
   font-weight: 50;
   height: 400px;
   font-family: "Nunito", sans-serif;
@@ -58,16 +59,16 @@ body{
   font-weight: 100;
 }
 #mainNavbar .nav-link{
-  color:  #fbd201;;
+  color:  #fbd201;
 }
 #mainNavbar .nav-link:hover {
-  color:  #fbd201;;
+  color:  #fbd201;
 }
 #mainNavbar .navbar-brand{
-  color:  #fbd201;;
+  color:  #fbd201;
 }
 #mainNavbar .navbar-brand:hover{
-  color:  #fbd201;;
+  color:  #fbd201;
 }
 #headingGroup span{
   color: black;
@@ -76,16 +77,12 @@ body{
   font-weight: 100;
   font-size: 4rem;
 }
-#logo{
-height: 55px;
-width:55px;
-}
 .form-control{
   border: 0px;
   border-radius: 0px;
 }
 .navbar.scrolled{
-  background: #0f1011;
+  background: black;
   transition: background 1s;
 }
 /*navLinks padding  */
@@ -105,7 +102,7 @@ padding-top: 2px;
 }
 
 }
-@media (max-width: 800px){
+@media (max-width: 900px){
   #headingGroup h1{
     height: 150px;
 }
