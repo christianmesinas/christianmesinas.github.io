@@ -9,36 +9,52 @@
 }
 
 body{
-  background: black;
+  background: white;
   font-family: "Nunito", sans-serif;
 }
 .blurb h2{
-  color:  #fbd201;
-  font-weight: 100;
+  font-weight: 300;
   font-size: 2.5rem;
 }
 .blurb p{
-  color:  #fbd201;
-  font-weight: 100;
+  font-weight: 300;
   font-size: 1rem;
   line-height: 2;
 }
 .content{
   margin-top: 100px;
 }
+#padding-text{
+  padding-bottom: 80px;
+}
+#intro-text{
+  color: black;
+}
+#introductie{
+  padding-bottom: 80px;
+}
+#mezelf{
+  background: #ebebeb;
+  padding-top: 100px;
+}
+#contact{
+  background: #181818;
+  padding-top: 100px;
 
+}
 
 /* mobile schermen */
 
 #headingGroup h1{
-  font-weight: 100;
+  text-shadow: 3px -1px 4px rgba(0,0,0,1);
+  font-weight: 450;
   font-size: 3rem;
   font-family: "Nunito", sans-serif;
 
 }
 #headingGroup h3{
-  color:  #fbd201;
-  font-weight: 50;
+  text-shadow: 3px -1px 4px rgba(0,0,0,1);
+  font-weight: 450;
   height: 400px;
   font-family: "Nunito", sans-serif;
   right: 0px;
@@ -58,23 +74,13 @@ body{
   font-size: 1.5rem;
   font-weight: 100;
 }
-#mainNavbar .nav-link{
-  color:  #fbd201;
-}
-#mainNavbar .nav-link:hover {
-  color:  #fbd201;
-}
-#mainNavbar .navbar-brand{
-  color:  #fbd201;
-}
-#mainNavbar .navbar-brand:hover{
-  color:  #fbd201;
+#mainNavbar .nav-link, .nav-link:hover, .navbar-brand, .navbar-brand:hover {
+  color:  white;
 }
 #headingGroup span{
   color: black;
 }
 #headingGroup h1{
-  font-weight: 100;
   font-size: 4rem;
 }
 .form-control{
@@ -118,14 +124,13 @@ padding-top: 2px;
 
   #headingGroup h3{
     height: 0px;
-display: none;
+    display: none;
 }
 
 
 @media (min-width: 1030px){
 
   #headingGroup h1{
-    font-weight: 400;
     font-size: 5;
     height: 100px;
     font-family: "Nunito", sans-serif;
@@ -133,7 +138,6 @@ display: none;
   }
   #headingGroup h3{
     right: 50px;
-    font-weight: 300;
     font-family: "Nunito", sans-serif;
   }
 #contact-info{
