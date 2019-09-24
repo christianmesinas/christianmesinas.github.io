@@ -1,0 +1,199 @@
+
+/* algmene styling */
+
+* {
+  text-align: left;
+}
+.row{
+  margin-right: 0px;
+}
+#padding{
+  padding-right: 0px;
+}
+.header{
+  font-family: "Roboto Condensed", sans-serif;
+}
+.navbar-nav{
+  flex-direction: row;
+}
+body{
+  background: white;
+  font-family: "Nunito", sans-serif;
+}
+.blurb h2{
+  font-weight: 300;
+  font-size: 2.5rem;
+}
+.blurb p{
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 2;
+}
+.content{
+  margin-top: 100px;
+}
+.long-text{
+  display: none;
+}
+#padding-text{
+  padding-bottom: 80px;
+  padding-right: 0px;
+
+}
+#intro-text{
+  color: black;
+}
+#introductie{
+  padding-bottom: 80px;
+}
+#mezelf{
+  background: #ebebeb;
+  padding-top: 100px;
+}
+#contact{
+  background: #181818;
+  padding-top: 100px;
+
+}
+/* to top button styling */
+#back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 9999;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 30px;
+    background: #f5f5f5;
+    color: black;
+    font-weight: 800;
+    cursor: pointer;
+    border: 0;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+}
+#back-to-top:hover {
+    background: #e9ebec;
+}
+#back-to-top.show {
+    opacity: 1;
+}
+/* mobile schermen */
+
+.header-text-h1{
+  text-shadow: 3px -1px 4px rgba(0,0,0,1);
+  font-weight: 450;
+  font-size: 1.5rem;
+  font-family: "Nunito", sans-serif;
+}
+
+.header-text-h3{
+  height: 0px;
+  display: none;
+}
+
+  .container-header {
+  position: relative;
+  text-align: center;
+  }
+
+  .header-text {
+    text-align: center;
+    color: white;
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+  }
+
+  .header-text-h1 {
+    top: 40%;
+  }
+
+  .header-text-h3 {
+    top: 55%;
+  }
+
+/* navigation mobile */
+
+.navbar-nav .nav-link {
+font-size: 0.9rem;
+font-weight: 70;
+}
+
+#mainNavbar{
+font-size: 0.88rem;
+font-weight: 70;
+}
+
+#mainNavbar .nav-link, .nav-link:hover, .navbar-brand, .navbar-brand:hover {
+  color:  white;
+}
+
+.navbar-nav .nav-link {
+  font-weight: 70;
+  padding-right: 15px;
+  }
+.form-control{
+  border: 0px;
+  border-radius: 0px;
+}
+.navbar.scrolled{
+  background: black;
+  transition: background 1s;
+}
+/*navLinks padding  */
+#introductie, #contact, #overmezelf{
+padding-top: 2px;
+
+}
+
+/* large screens */
+
+@media (min-width: 400px) {
+
+  .long-text {
+    display: inline-block;
+  }
+
+  .short-text {
+    display: none;
+  }
+}
+
+@media (min-width: 720px) {
+
+  .navbar-nav .nav-link {
+    font-size: 1.5rem;
+    }
+
+  .header-text-h3 {
+    display: inline-block;
+    text-shadow: 3px -1px 4px rgba(0,0,0,1);
+    font-weight: 450;
+    font-family: "Nunito", sans-serif;
+    right: 0px;
+  }
+
+  .header-text-h1{
+    font-size: 2rem;
+  }
+
+}
+
+@media (min-width: 1024px) {
+
+    .header-text-h1{
+      font-size: 3rem;
+    }
+}
+
+@media (min-width: 1440px) {
+
+    .header-text-h1{
+      font-size: 4rem;
+    }
+}
