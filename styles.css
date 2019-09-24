@@ -20,7 +20,7 @@ body{
   background: white;
   font-family: "Nunito", sans-serif;
 }
-.blurb h2{
+.blurb h3{
   font-weight: 300;
   font-size: 2.5rem;
 }
@@ -38,7 +38,6 @@ body{
 #padding-text{
   padding-bottom: 80px;
   padding-right: 0px;
-
 }
 #intro-text{
   color: black;
@@ -53,9 +52,10 @@ body{
 #contact{
   background: #181818;
   padding-top: 100px;
-
 }
+
 /* to top button styling */
+
 #back-to-top {
     position: fixed;
     bottom: 40px;
@@ -81,6 +81,7 @@ body{
 #back-to-top.show {
     opacity: 1;
 }
+
 /* mobile schermen */
 
 .header-text-h1{
@@ -90,32 +91,32 @@ body{
   font-family: "Nunito", sans-serif;
 }
 
-.header-text-h3{
+.header-text-h2{
   height: 0px;
   display: none;
 }
 
-  .container-header {
+.container-header {
   position: relative;
   text-align: center;
-  }
+}
 
-  .header-text {
-    text-align: center;
-    color: white;
-    width: 80%;
-    position: absolute;
-    left: 10%;
-    right: 10%;
-  }
+.header-text {
+  text-align: center;
+  color: white;
+  width: 80%;
+  position: absolute;
+  left: 10%;
+  right: 10%;
+}
 
-  .header-text-h1 {
-    top: 40%;
-  }
+.header-text-h1 {
+  top: 40%;
+}
 
-  .header-text-h3 {
-    top: 55%;
-  }
+.header-text-h2 {
+  top: 55%;
+}
 
 /* navigation mobile */
 
@@ -136,24 +137,27 @@ font-weight: 70;
 .navbar-nav .nav-link {
   font-weight: 70;
   padding-right: 15px;
-  }
+}
+
 .form-control{
   border: 0px;
   border-radius: 0px;
 }
+
 .navbar.scrolled{
   background: black;
   transition: background 1s;
 }
+
 /*navLinks padding  */
+
 #introductie, #contact, #overmezelf{
 padding-top: 2px;
-
 }
 
 /* large screens */
 
-@media (min-width: 400px) {
+@media (min-width: 430px) {
 
   .long-text {
     display: inline-block;
@@ -168,9 +172,9 @@ padding-top: 2px;
 
   .navbar-nav .nav-link {
     font-size: 1.5rem;
-    }
+  }
 
-  .header-text-h3 {
+  .header-text-h2 {
     display: inline-block;
     text-shadow: 3px -1px 4px rgba(0,0,0,1);
     font-weight: 450;
@@ -189,6 +193,7 @@ padding-top: 2px;
     .header-text-h1{
       font-size: 3rem;
     }
+
 }
 
 @media (min-width: 1440px) {
@@ -196,4 +201,5 @@ padding-top: 2px;
     .header-text-h1{
       font-size: 4rem;
     }
+    
 }
