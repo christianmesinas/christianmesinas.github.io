@@ -36,9 +36,15 @@ body{
 .long-text{
   display: none;
 }
-#padding-text{
+.list-group-item{
+  background-color: #181818;
+}
+.padding-text{
   padding-bottom: 80px;
   padding-right: 0px;
+}
+i{
+  padding-right: 10px;
 }
 #intro-text{
   color: black;
@@ -53,6 +59,7 @@ body{
 #contact{
   background: #181818;
   padding-top: 100px;
+  padding-left: 15px;
 }
 
 /* to top button styling */
