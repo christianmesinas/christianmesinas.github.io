@@ -37,6 +37,7 @@ body{
   display: none;
 }
 .list-group-item{
+  border: none;
   background-color: #181818;
 }
 .padding-text{
